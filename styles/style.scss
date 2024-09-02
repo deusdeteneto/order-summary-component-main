@@ -1,0 +1,125 @@
+// Reset CSS
+@import url("reset.css");
+
+// Colors
+$color-pale-blue: hsl(225, 100%, 94%);
+$color-bright-blue: hsl(245, 75%, 52%);
+$color-very-pale-blue: hsl(225, 100%, 98%);
+$color-desaturated-blue: hsl(224, 23%, 55%);
+$color-dark-blue: hsl(223, 47%, 23%);
+
+// Typography
+$font-Red-Hat: "Red Hat Display", sans-serif;
+$font-weight-regular: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// Body background
+.background {
+  background: $color-pale-blue url("../images/pattern-background-desktop.svg")
+    no-repeat;
+  background-size: contain;
+}
+
+.card {
+  max-width: 26rem;
+}
+
+// Card styles
+.card-body {
+  font-family: $font-Red-Hat;
+
+  .card-title,
+  .card-plan-title,
+  .text-cancel {
+    font-weight: $font-weight-black;
+    color: $color-dark-blue;
+  }
+
+  .card-text,
+  .card-plan-price {
+    font-weight: $font-weight-regular;
+    color: $color-desaturated-blue;
+  }
+
+  .plan-change {
+    font-weight: $font-weight-bold;
+    font-size: 0.9rem;
+    color: $color-dark-blue;
+    transition: color 0.3s;
+
+    &:hover {
+      color: hsla(245, 75%, 52%, 0.596);
+    }
+  }
+
+  .text-cancel {
+    font-weight: $font-weight-bold;
+    color: $color-desaturated-blue;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $color-dark-blue;
+    }
+  }
+}
+
+// Button styles
+.bg-btn {
+  background-color: $color-bright-blue;
+  font-weight: $font-weight-bold;
+  color: $color-very-pale-blue;
+  font-size: 0.9rem;
+  box-shadow: 0px 12px 26px hwb(224 45% 35% / 0.363);
+  padding: 10px 0;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: hsla(245, 75%, 52%, 0.596);
+    color: $color-very-pale-blue;
+  }
+}
+
+// Card plan
+.card-plan {
+  background-color: $color-very-pale-blue;
+}
+
+// Attribution styles
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: $font-weight-regular;
+  font-size: 0.75rem;
+
+  a {
+    color: $color-dark-blue;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $color-desaturated-blue;
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  // Body background
+  .background {
+    background: $color-pale-blue url("../images/pattern-background-mobile.svg")
+      no-repeat;
+    background-size: contain;
+  }
+}
