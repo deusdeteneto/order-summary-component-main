@@ -21,13 +21,15 @@ Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@deusdeteneto]
 ### Imagem
 
 <!-- TODO COLOCAR IMAGEM DO PROJETO -->
-![Imagem do Projeto](https://raw.githubusercontent.com/deusdeteneto/Seu-Repositorio/main/design/desktop-design.jpg) <!-- Substitua o link pela imagem de captura de tela do seu projeto -->
+
+![Imagem do Projeto](https://raw.githubusercontent.com/deusdeteneto/order-summary-component-main/main/design/image-desktop.jpeg) <!-- Substitua o link pela imagem de captura de tela do seu projeto -->
 
 ### Links
 
 <!-- TODO COLOCAR OS LINKS ABAIXO -->
-- URL da Solução: [Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/order-summary-card) <!-- Substitua pela URL do seu repositório ou site -->
-- URL do Site: [Adicionar URL do site aqui](https://order-summary-card.vercel.app/) <!-- Substitua pela URL do site ao vivo -->
+
+- URL da Solução: [Adicionar URL da solução aqui](https://www.frontendmentor.io/solutions/order-summary-card-P6Y_zVvbE-) <!-- Substitua pela URL do seu repositório ou site -->
+- URL do Site: [Adicionar URL do site aqui](https://order-summary-component-main-eta-eosin.vercel.app/) <!-- Substitua pela URL do site ao vivo -->
 
 ## Meu processo
 

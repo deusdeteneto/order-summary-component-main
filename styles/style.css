@@ -6,6 +6,7 @@
 
 .card {
   max-width: 26rem;
+  box-shadow: 0px 12px 26px hwb(225 45% 35%/0.493);
 }
 
 .card-body {
@@ -47,7 +48,7 @@
   font-weight: 700;
   color: hsl(225, 100%, 98%);
   font-size: 0.9rem;
-  box-shadow: 0px 12px 26px hwb(224 45% 35%/0.363);
+  box-shadow: 0px 12px 26px hwb(225 45% 35%/0.527);
   padding: 10px 0;
   transition: background-color 0.3s, color 0.3s;
 }
